@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>百度大数据实时显示</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../static/assets/img/favicon.png" rel="icon">
+  <link href="../static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="../static/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="index.html"><span>COVID-19</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="../static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+            <li class="active"><a href="#header">关于CONVID-19 <i class="la la-angle-down"></i></a></li>
+            <li><a href="#china_map">国内map</a></li>
+            <li><a href="#china_line">国内line</a></li>
+            <li><a href="#china_wordcloud">国内wordcloud</a></li>
+            <li><a href="#global_map">国外map</a></li>
+            <li><a href="#global_line">国外line</a></li>
+            <li><a href="#global_wordcloud">国外wordcloud</a></li>
+            <li><a href="#tech">用到技术</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('../static/assets/img/about2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">关于COVID-19</h2>
+                <p class="animated fadeInUp">冠状病毒是一个大型病毒家族，可引起普通感冒乃至急性重症呼吸综合征(SARS)和中东呼吸系统综合征(MERS)等疾病。2020年暴发了一场全球性的疾病，即COVID-19。经确认，其根源便是一种名为2019年新型冠状病毒(2019-nCoV)的新型病毒。
+                    人们目前对该新型病毒知之甚少。包括世界卫生组织(WHO)和美国疾病控制与预防中心(CDC)在内的各大公共卫生组织正在密切监视该病毒的发展态势，并通过各自网站发布相关最新信息。这些组织还针对如何预防和治疗该病毒导致的疾病发布了一些建议。我们要时刻关注疫情信息，做好防范。 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+        <section id="china_map" class="china_map">
+            <div class="container">
+                <div class="row no-gutters">
+                    <iframe src="../static/templates/china_map.html" width="900" height="550" scrolling="no"></iframe>
+                </div>
+            </div>
+        </section><!-- End About Us Section -->
+        <section id="china_line" class="china_line">
+            <div class="container">
+                <div class="row no-gutters">
+                    <iframe src="../static/templates/china_dialy_line.html" width="900" height="550" scrolling="no"></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="china_wordcloud" class="china_wordcloud">
+            <div class="container">
+                <div class="row no-gutters">
+                    <img src="../static/assets/img/WordCloud-China.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="global_map" class="global_map">
+            <div class="container">
+                <div class="row no-gutters">
+                    <iframe src="../static/templates/global_map.html" width="900" height="550" scrolling="no"></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="global_line" class="global_line">
+            <div class="container">
+                <div class="row no-gutters">
+                    <iframe src="../static/templates/foreign_dialy_line.html" width="900" height="550" scrolling="no"></iframe>
+                </div>
+            </div>
+        </section>
+        <section id="global_wordcloud" class="global_wordcloud">
+            <div class="container">
+                <div class="row no-gutters">
+                    <img src="../static/assets/img/WordCloud-Global.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="tech" class="tech">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>用到技术</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="">爬虫</a></h4>
+              <p class="description">爬取百度疫情数据，然后保存到excel表中。</p>
+              <p class="description">用到的库：</p>
+              <p class="description">requests获取网页数据</p>
+              <p class="description">etree解析HTML</p>
+              <p class="description">openpyxl将数据存入excel</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <h4 class="title"><a href="">可视化</a></h4>
+              <p class="description">通过图表的形式可视化数据。</p>
+              <p class="description">用到的库：</p>
+              <p class="description">pyecharts展示图表</p>
+              <p class="description">wordcloud根据数量展示词云</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="icofont-earth"></i></div>
+            <h4 class="title"><a href="">网站</a></h4>
+              <p class="description">通过网页的形式与用户交互。</p>
+              <p class="description">用到的库：</p>
+              <p class="description">Flask轻量级web应用框架</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../static/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="../static/assets/vendor/php-email-form/validate.js"></script>
+  <script src="../static/assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="../static/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="../static/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="../static/assets/vendor/counterup/counterup.min.js"></script>
+  <script src="../static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/assets/js/main.js"></script>
+
+</body>
+
+</html>
